@@ -4,7 +4,7 @@
 .services .card {
     width: 250px;
     display: inline-block;
-    margin: 1rem;
+    margin: 1rem auto;
     border-radius: 4px;
     box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
@@ -75,6 +75,10 @@
 .services .card-img .overlay-content a.hover {
     background: #ccb65e;
     border-color: #ccb65e;
+    color: black;
+    font-family: sans-serif;
+    font-size: medium;
+    box-shadow: 5px white;
 }
 
 .services .card-content {
