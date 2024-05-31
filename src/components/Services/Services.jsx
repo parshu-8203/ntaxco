@@ -25,35 +25,35 @@ const Services = ({ serviceName }) => {
     switch (serviceName) {
       case "GST REGISTRATION":
         return <GSTRegistration />;
-      case "GST Returns":
+      case "GST RETURNS":
         return <GSTReturns />;
-      case "Privated Limited Company":
+      case "PRIVATED LIMITED COMPANY":
         return <PrivateLimitedCompany />;
-      case "Limited Liability Partnership":
+      case "LIMITED LIABILITY PARTNERSHIP":
         return <LLP />;
-      case "One Person Company":
+      case "ONE PERSON COMPANY":
         return <OPC />;
-      case "Partnership Firm":
+      case "PARTNERSHIP FIRM":
         return <Partnership />;
-      case "Employee State Insurance":
+      case "EMPLOYEE STATE INSURANCE":
         return <ESI />;
-      case "Import & Export Code":
+      case "IMPORT & EXPORT CODE":
         return <IEC />;
-      case "Micro, Small & Medium Enterprises (MSME)":
+      case "MICRO, SMALL & MEDIUM ENTERPRISES (MSME)":
         return <MSME />;
-      case "Food License":
+      case "FOOD LICENSE":
         return <Food />;
-      case "Trade License":
+      case "TRADE LICENSE":
         return <Trade />;
-      case "12A License for Trust":
+      case "12A LICENSE FOR TRUST":
         return <Trust12A />;
-      case "80G License for Trust":
+      case "80G LICENSE FOR TRUST":
         return <Trust80G />;
-      case "Book Keeping & Accounting":
+      case "BOOK KEEPING & ACCOUNTING":
         return <Book />;
-      case "Payroll":
+      case "PAYROLL":
         return <Payroll />;
-      case "Digital Signature":
+      case "DIGITAL SIGNATURE":
         return <Digital />;
       default:
         return null;
