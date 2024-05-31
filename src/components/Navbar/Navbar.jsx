@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.png";
-import bars from "../../assets/bars.png";
+import bars from "../../assets/hamburger-removebg-preview.png";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 const CostumNavbar = () => {
@@ -8,22 +8,22 @@ const CostumNavbar = () => {
   };
   return (
     <>
-      <nav class="navbar">
+      <nav class="navbar shadow">
         <div class="container-fluid">
           <span class="navbar-brand" href="#">
             <Link to="/">
-              <img src={logo} />
+              <img style={{ width: "9rem" }} src={logo} />
             </Link>
           </span>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler shadow-none"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
-            <img src={bars} />
+            <img style={{ width: "30px", height: "30px" }} src={bars} />
           </button>
           <div
             class="offcanvas offcanvas-end bg-#FFFCF8"
@@ -81,19 +81,19 @@ const CostumNavbar = () => {
                     </NavLink>
                   </span>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                   <span
-                    class="nav-link dropdown-toggle text-black"
+                    class="nav-link dropdown-toggle text-black fs-6"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <i class="fa-solid fa-list-check"></i> Services
+                    <i class="fa-solid fa-list-check "></i> Services
                   </span>
                   <ul class="dropdown-menu">
                     <li class="dropdown-submenu">
                       <span
-                        class="dropdown-item dropdown-toggle"
+                        class="dropdown-item dropdown-toggle fs-6"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"

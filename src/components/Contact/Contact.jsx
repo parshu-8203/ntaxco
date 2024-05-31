@@ -18,14 +18,11 @@ const Contact = () => {
                   onsubmit="return validation();"
                 >
                   <div class="row">
-                    <div
-                      class="form-group col-md-6"
-                      style={{ boxShadow: "0.25px white" }}
-                    >
+                    <div class="form-group col-md-6">
                       <input
                         type="text"
                         name="name"
-                        class="shadow-lg form-control"
+                        class="shadow form-control"
                         placeholder="Name"
                         required="required"
                       />
@@ -34,7 +31,7 @@ const Contact = () => {
                       <input
                         type="email"
                         name="email"
-                        class="shadow-lg form-control"
+                        class="shadow form-control"
                         placeholder="Email"
                         required="required"
                       />
@@ -43,7 +40,7 @@ const Contact = () => {
                       <input
                         type="text"
                         name="subject"
-                        class="shadow-lg form-control"
+                        class="shadow form-control"
                         placeholder="Subject"
                         required="required"
                       />
@@ -52,7 +49,7 @@ const Contact = () => {
                       <textarea
                         rows="6"
                         name="message"
-                        class="shadow-lg form-control"
+                        class="shadow form-control"
                         placeholder="Your Message"
                         required="required"
                       ></textarea>

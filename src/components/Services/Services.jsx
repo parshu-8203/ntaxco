@@ -23,7 +23,7 @@ const Services = ({ serviceName }) => {
 
   const renderServiceComponent = () => {
     switch (serviceName) {
-      case "GST Registration":
+      case "GST REGISTRATION":
         return <GSTRegistration />;
       case "GST Returns":
         return <GSTReturns />;
@@ -62,17 +62,29 @@ const Services = ({ serviceName }) => {
 
   return (
     <>
-      <div style={{ marginTop: "100px" }} className="container">
-        <h1 style={{ color: "#0049B7" }} className="text-center mb-4">
+      <div style={{ marginTop: "50px" }} className="container">
+        <h1
+          style={{ color: "#0049B7", fontWeight: "700", fontSize: "xx-large" }}
+          className="text-center mb-4"
+        >
           {serviceName}
         </h1>
 
         <div className="row">
           <div className="col-md-8">{renderServiceComponent()}</div>
           <div className="col-md-4">
-            <div className="card sticky small-card custom-card ">
-              <div className="card-body">
-                <h5 className="card-title text-black">Register to Service</h5>
+            <div className="card  small-card custom-card w-90">
+              <div className="card-body h-">
+                <h5
+                  style={{
+                    fontWeight: "600",
+                    fontSize: "small",
+                    textAlign: "center",
+                  }}
+                  className="card-title text-primary mb-0"
+                >
+                  REGISTER TO SERVICE
+                </h5>
                 <form onSubmit={handleSubmit}>
                   <div className="mb-2">
                     <label htmlFor="name" className="form-label text-black">
@@ -119,11 +131,8 @@ const Services = ({ serviceName }) => {
                       readOnly
                     />
                   </div>
-                  <button
-                    type="submit"
-                    className="shadow-lg btn btn-primary  btn-block"
-                  >
-                    Submit
+                  <button type="submit" className="button">
+                    SUBMIT
                   </button>
                 </form>
               </div>
