@@ -19,6 +19,7 @@ import certifications from "../../assets/certifications.jpg";
 import partnership from "../../assets/partnership.jpg";
 import insurance from "../../assets/insurance.jpg";
 import entrivity from "../../assets/entrivity.png";
+import "aos/dist/aos.css";
 
 import "./Home.css";
 const Home = () => {
@@ -34,7 +35,10 @@ const Home = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-md-6 d-flex align-items-center">
+          <div
+            data-aos="fade-right"
+            className="col-md-6 d-flex align-items-center"
+          >
             <div className="text-center">
               <h2>
                 <span className="text-primary">We Help</span> Your{" "}
@@ -50,7 +54,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="img-id col-md-6">
+          <div data-aos="fade-left" className="img-id col-md-6">
             <img
               src={image}
               className="person img-fluid mt-3"

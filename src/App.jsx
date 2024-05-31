@@ -5,6 +5,8 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { useEffect } from "react";
 import {
@@ -18,6 +20,12 @@ import ScrollToTop from "./widgets/ScrollToTop";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
+    AOS.init({
+      offset: 200, // offset (in px) from the original trigger point
+      delay: 100, // values from 0 to 3000, with step 50ms
+      duration: 600, // values from 0 to 3000, with step 50ms
+      easing: "ease-in-out",
+    });
     setIsLoading(false);
   }, []);
   return (
