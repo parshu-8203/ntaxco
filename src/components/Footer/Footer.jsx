@@ -31,7 +31,9 @@ const Footer = () => {
                     style={{ backgroundColor: "transparent" }}
                     class="faStyle fa fa-envelope"
                   ></i>
-                  <a href="mailto:info@ntaxco.com">info@ntaxco.com</a>
+                  <a className="text-white" href="mailto:info@ntaxco.com">
+                    info@ntaxco.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -91,7 +93,7 @@ const Footer = () => {
             <br />
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="widget no-box">
+              <div data-aos="zoom-in" class="widget no-box">
                 <h5 class="widget-title">
                   Contact Us<span></span>
                 </h5>

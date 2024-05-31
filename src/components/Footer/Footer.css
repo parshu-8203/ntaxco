@@ -4,7 +4,7 @@
 
 /* Main Footer */
 #footer {
-    background-color: black;
+    background-color: #0A152F;
 }
 footer .main-footer {
     padding: 20px 0;
@@ -278,4 +278,6 @@ ul.social-footer2 li a {
     margin-left: 5px;
     color: #ffffff;
 }
+
+
 
