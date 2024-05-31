@@ -309,6 +309,15 @@ p{
 }
 
 
+.homecard:hover{
+    border: 1px solid #187BFF ;
+    box-shadow: 2rem #187BFF;
+
+}
+
+
+
+
 
 
 

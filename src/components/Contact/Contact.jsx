@@ -5,7 +5,7 @@ const Contact = () => {
       <div id="contact" class="contact-area section-padding mt-5">
         <div class="container">
           <div class="section-title text-center pt-5 ">
-            <h1>Get in Touch</h1>
+            <h1 className="text-primary fs-1 fw-bold">GET IN TOUCH</h1>
           </div>
           <div class="row">
             <div class="col-lg-7">
@@ -31,7 +31,7 @@ const Contact = () => {
                       <input
                         type="email"
                         name="email"
-                        class="shadow form-control"
+                        class="shadow form-control placeholder:focus"
                         placeholder="Email"
                         required="required"
                       />

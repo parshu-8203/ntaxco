@@ -63,7 +63,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="card h-100">
-              <div className="shadow card-body d-flex flex-column align-items-center justify-content-center">
+              <div className="shadow homecard card-body d-flex flex-column align-items-center justify-content-center">
                 <img src={onTime} className="logo" alt="On Time Service Logo" />
                 <h5 className="card-title mt-3 text-center">On Time Service</h5>
               </div>
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="card h-100">
-              <div className="shadow card-body d-flex flex-column align-items-center justify-content-center">
+              <div className="shadow homecard card-body d-flex flex-column align-items-center justify-content-center">
                 <img
                   src={professionalTeam}
                   style={{ width: "200px" }}
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="card h-100">
-              <div className="shadow card-body d-flex flex-column align-items-center justify-content-center">
+              <div className="shadow homecard card-body d-flex flex-column align-items-center justify-content-center">
                 <img
                   src={analyze}
                   className="logo"
@@ -100,7 +100,7 @@ const Home = () => {
           </div>
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="card h-100">
-              <div className="shadow card-body  d-flex flex-column align-items-center justify-content-center">
+              <div className="shadow homecard card-body  d-flex flex-column align-items-center justify-content-center">
                 <img
                   src={minimize}
                   className="logo"
@@ -136,6 +136,7 @@ const Home = () => {
               imageUrl={incomeTax}
               title="Income Tax"
               description="lrema sd ashdf w oadsf"
+              path="/gst-returns"
             />
           </div>
           <div className="Card">
@@ -143,6 +144,7 @@ const Home = () => {
               imageUrl={accounts}
               title="Accounts Maintenance"
               description="lrema sd ashdf w oadsf"
+              path="/private-limited-company"
             />
           </div>
           <div className="Card">
@@ -150,6 +152,7 @@ const Home = () => {
               imageUrl={mca}
               title="MCA"
               description="lrema sd ashdf w oadsf"
+              path="/limited-liability-partnership"
             />
           </div>
           <div className="Card">
@@ -157,6 +160,7 @@ const Home = () => {
               imageUrl={digitalSignature}
               title="Digital Signature"
               description="lrema sd ashdf w oadsf"
+              path="/one-person-company"
             />
           </div>
           <div className="Card">
@@ -164,6 +168,7 @@ const Home = () => {
               imageUrl={esi}
               title="GST"
               description="lrema sd ashdf w oadsf"
+              path="/partnership-firm"
             />
           </div>
           <div className="Card">
@@ -171,6 +176,7 @@ const Home = () => {
               imageUrl={epf}
               title="GST"
               description="lrema sd ashdf w oadsf"
+              path="/employee-state-insurance"
             />
           </div>
           <div className="Card">
@@ -178,6 +184,7 @@ const Home = () => {
               imageUrl={msme}
               title="MSME"
               description="lrema sd ashdf w oadsf"
+              path="/msme"
             />
           </div>
           <div className="Card">
@@ -185,6 +192,7 @@ const Home = () => {
               imageUrl={iec}
               title="Import and Export Code"
               description="lrema sd ashdf w oadsf"
+              path="/import-export-code"
             />
           </div>
           <div className="Card">
@@ -192,6 +200,7 @@ const Home = () => {
               imageUrl={certifications}
               title="Certifications"
               description="lrema sd ashdf w oadsf"
+              path="/food-license"
             />
           </div>
           <div className="Card">
@@ -199,6 +208,7 @@ const Home = () => {
               imageUrl={partnership}
               title="Partnership"
               description="lrema sd ashdf w oadsf"
+              path="/trade-license"
             />
           </div>
           <div className="Card">
@@ -206,6 +216,7 @@ const Home = () => {
               imageUrl={insurance}
               title="Insurance"
               description="lrema sd ashdf w oadsf"
+              path="/12A"
             />
           </div>
         </div>

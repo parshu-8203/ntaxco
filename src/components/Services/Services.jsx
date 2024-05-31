@@ -131,7 +131,7 @@ const Services = ({ serviceName }) => {
                       readOnly
                     />
                   </div>
-                  <button type="submit" className="button">
+                  <button type="submit" className="button mt-4">
                     SUBMIT
                   </button>
                 </form>
