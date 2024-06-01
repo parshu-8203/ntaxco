@@ -116,7 +116,7 @@ const Footer = () => {
         <div class="footer-copyright">
           <div class="container">
             <div class="row">
-              <div class="col-md-12 text-center">
+              <div class="col-md-12 text-center p-2">
                 <p>Copyright ©2024, by www.ntaxco.com</p>
               </div>
             </div>

@@ -227,7 +227,7 @@ const Home = () => {
       </div>
       <div
         className="testimonials shadow-lg border border-top-5"
-        style={{ backgroundColor: "white" }}
+        // style={{ backgroundColor: "white" }}
       >
         <div class="container-xl">
           <div class="row">

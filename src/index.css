@@ -1,20 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Sans", sans-serif;
 }
 
-body{
-    /* background: linear-gradient(to bottom, white 0%, lightpink 50%, white 100%); */
-    background-color:#FFFCF8 ;
-    /* background: linear-gradient(to right,#FFDBF5 -20%,white,#3EACE8 ); */
+body {
+  /* background: linear-gradient(to bottom, white 0%, lightpink 50%, white 100%); */
+  /* background-color: #fffcf8; */
+  /* background: linear-gradient(to right, #ffdbf5 -20%, white, #3eace8);
+  background-image: url(/src/assets/ntaxco.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: cover; */
 }
 
-
-
-
-
-
+.background_svg {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
 
 /* //3B71CA */
 
