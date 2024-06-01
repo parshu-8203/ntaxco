@@ -1,0 +1,100 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:svgjs="http://svgjs.dev/svgjs"
+        viewBox="0 0 800 150"
+        class="background_svg"
+      >
+        <defs>
+          <filter
+            id="bbblurry-filter"
+            x="-50%"
+            y="-50%"
+            width="300%"
+            height="300%"
+            filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feGaussianBlur
+              stdDeviation="75"
+              x="0%"
+              y="0%"
+              width="100%"
+              height="300%"
+              in="SourceGraphic"
+              edgeMode="none"
+              result="blur"
+            ></feGaussianBlur>
+          </filter>
+        </defs>
+        <g filter="url(#bbblurry-filter)">
+          <ellipse
+            rx="150"
+            ry="150"
+            cx="217.54468246152703"
+            cy="201.4051211094298"
+            fill="hsl(37, 99%, 67%)"
+          >
+            <animate
+              attributeName="cx"
+              dur="12s"
+              repeatCount="indefinite"
+              values="27.54468246152703; 637; 27.54468246152703"
+              keyTimes="0; 0.5; 1"
+            />
+            <animate
+              attributeName="cy"
+              dur="3s"
+              repeatCount="indefinite"
+              values="201.4051211094298; 311; 201.4051211094298"
+              keyTimes="0; 0.5; 1"
+            />
+          </ellipse>
+          <ellipse
+            rx="150"
+            ry="150"
+            cx="587.8532792141227"
+            cy="205.216603566077"
+            fill="hsl(316, 73%, 52%)"
+          >
+            <animate
+              attributeName="cx"
+              dur="4s"
+              repeatCount="indefinite"
+              values="587.8532792141227; 597; 587.8532792141227"
+              keyTimes="0; 0.5; 1"
+            />
+            <animate
+              attributeName="cy"
+              dur="4s"
+              repeatCount="indefinite"
+              values="205.216603566077; 215; 205.216603566077"
+              keyTimes="0; 0.5; 1"
+            />
+          </ellipse>
+          <ellipse
+            rx="150"
+            ry="150"
+            cx="475.1392417163224"
+            cy="485.93121785853174"
+            fill="hsl(185, 100%, 57%)"
+          >
+            <animate
+              attributeName="cx"
+              dur="12s"
+              repeatCount="indefinite"
+              values="175.1392417163224; 485; 175.1392417163224"
+              keyTimes="0; 0.5; 1"
+            />
+            <animate
+              attributeName="cy"
+              dur="14s"
+              repeatCount="indefinite"
+              values="15.93121785853174; 495; 15.93121785853174"
+              keyTimes="0; 0.5; 1"
+            />
+          </ellipse>
+        </g>
+      </svg>

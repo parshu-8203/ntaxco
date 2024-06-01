@@ -39,7 +39,7 @@ const Home = () => {
             data-aos="fade-right"
             className="col-md-6 d-flex align-items-center"
           >
-            <div className="text-center">
+            <div className="heading text-center">
               <h2>
                 <span className="text-primary">We Help</span> Your{" "}
                 <span className="text-primary">Business</span> to Grow Up Next
@@ -227,7 +227,7 @@ const Home = () => {
       </div>
       <div
         className="testimonials shadow-lg border border-top-5"
-        style={{ backgroundColor: "white" }}
+        // style={{ backgroundColor: "white" }}
       >
         <div class="container-xl">
           <div class="row">

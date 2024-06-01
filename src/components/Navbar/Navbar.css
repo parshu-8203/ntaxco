@@ -1,26 +1,31 @@
-.navbar-toggler{
-    padding: 2px;
+.navbar-toggler {
+  padding: 2px;
 }
 
-a{
-    color: black;
-    font-family:  system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: medium;
+a {
+  color: black;
+  font-family: system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: medium;
 }
 
-.active{
-    color: #3B71CA;
-
+.active {
+  color: #3b71ca;
 }
 
-.navbar{
-    /* background: linear-gradient(to right,#3B71CA -10%,white 110%); */
-    background-color: #0A152F;
-    position: sticky; 
-    top: 0;
-    z-index: 1;
+.navbar {
+  /* background: linear-gradient(to right,#3B71CA -10%,white 110%); */
+  /* background-color: #0A152F; */
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-
 
 /* @keyframes moveGradient {
     0% {
@@ -31,12 +36,3 @@ a{
     }
     
 } */
-
-
-
-
-
-
-
-
-
