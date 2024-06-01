@@ -143,6 +143,13 @@
   }
 }
 
+@media (max-width: 992px) {
+  /* For large screens (lg) */
+  .heading {
+    margin-top: 3rem;
+  }
+}
+
 @media (min-width: 1200px) {
   /* For large screens (lg) */
   .services-cards > .Card {
