@@ -16,6 +16,7 @@ import Trust12A from "./Trust12A";
 import Trust80G from "./Trust80G";
 import Payroll from "./Payroll";
 import Digital from "./Digital";
+import Dropdown from "../../widgets/Dropdown";
 const Services = ({ serviceName }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -123,13 +124,7 @@ const Services = ({ serviceName }) => {
                     <label htmlFor="service" className="form-label text-black">
                       Service
                     </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="service"
-                      value={serviceName}
-                      readOnly
-                    />
+                    <Dropdown serviceName={serviceName} />
                   </div>
                   <button type="submit" className="button mt-4">
                     SUBMIT
