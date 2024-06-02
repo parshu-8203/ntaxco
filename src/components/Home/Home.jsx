@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../../assets/home-image.png";
 import { Link } from "react-router-dom";
-import onTime from "../../assets/ontime.gif";
+import onTime from "../../assets/onTime.gif";
 import professionalTeam from "../../assets/professionalTeam.gif";
 import analyze from "../../assets/analyze.gif";
 import minimize from "../../assets/minimize.gif";
