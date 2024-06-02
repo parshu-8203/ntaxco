@@ -74,7 +74,10 @@ const Services = ({ serviceName }) => {
         <div className="row">
           <div className="col-md-8">{renderServiceComponent()}</div>
           <div className="col-md-4">
-            <div className="card  small-card custom-card w-90">
+            <div
+              data-aos="zoom-in"
+              className="card  small-card custom-card w-90"
+            >
               <div className="card-body h-">
                 <h5
                   style={{
@@ -124,7 +127,7 @@ const Services = ({ serviceName }) => {
                     <label htmlFor="service" className="form-label text-black">
                       Service
                     </label>
-                    <Dropdown serviceName={serviceName} />
+                    <Dropdown key={serviceName} serviceName={serviceName} />
                   </div>
                   <button type="submit" className="button mt-4">
                     SUBMIT
