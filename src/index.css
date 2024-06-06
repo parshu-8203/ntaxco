@@ -1,9 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Sans", sans-serif;
 }
+
 body {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background: linear-gradient(to bottom, white 0%, lightpink 50%, white 100%); */
+  /* background-color: #fffcf8; */
+  /* background: linear-gradient(to right, #ffdbf5 -20%, white, #3eace8);
+  background-image: url(/src/assets/ntaxco.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: cover; */
 }
+
+.background_svg {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* CSS rules specific to mobile devices */
+  .background_svg {
+    max-width: 100%; /* Ensure SVG does not exceed the width of the viewport */
+    height: auto; /* Allow the height to adjust proportionally */
+    -webkit-transform: rotate(90deg) scale(2.5);
+  }
+}
+
+/* //3B71CA */
+
+/* FFFCF8 */
+
+/* FFDBF5 */
+
+/* 3EACE8 */
