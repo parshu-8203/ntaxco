@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../../assets/home-image.png";
 import { Link } from "react-router-dom";
 import onTime from "../../assets/onTime.gif";
@@ -34,7 +33,7 @@ const Home = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="main-header">
           <div
             data-aos="fade-right"
             className="col-md-6 d-flex align-items-center"
@@ -50,17 +49,17 @@ const Home = () => {
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.
               </p>
               <Link to="/contactUs">
-                <button class="btn contact-button">Contact Us</button>
+                <button className="btn contact-button">Contact Us</button>
               </Link>
             </div>
           </div>
-          <div data-aos="fade-left" className="img-id col-md-6">
+          {/* <div data-aos="fade-left" className="img-id col-md-6">
             <img
               src={image}
               className="person img-fluid mt-3"
               alt="Right Image"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="container mt-5 company-services">

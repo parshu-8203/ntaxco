@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       {isLoading ? (
-        <div className="spinner-border text-primary" role="status">
+        <div className="spinner-border text-primary spinner" role="status">
           <span className="sr-only">Loading...</span>
         </div>
       ) : (

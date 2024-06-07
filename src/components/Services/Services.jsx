@@ -85,7 +85,7 @@ const Services = ({ serviceName }) => {
                     fontSize: "small",
                     textAlign: "center",
                   }}
-                  className="card-title text-primary mb-0"
+                  className="card-title text-primary mb-0 fs-6"
                 >
                   REGISTER TO SERVICE
                 </h5>
@@ -96,7 +96,7 @@ const Services = ({ serviceName }) => {
                     </label>
                     <input
                       type="text"
-                      className="form-control"
+                      className="form-control fs-6"
                       id="name"
                       required
                     />
@@ -107,7 +107,7 @@ const Services = ({ serviceName }) => {
                     </label>
                     <input
                       type="email"
-                      className="form-control"
+                      className="form-control fs-6"
                       id="email"
                       required
                     />
@@ -117,7 +117,7 @@ const Services = ({ serviceName }) => {
                       Message
                     </label>
                     <textarea
-                      className="form-control"
+                      className="form-control fs-6"
                       id="message"
                       rows="3"
                       required
