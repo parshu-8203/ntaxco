@@ -89,12 +89,13 @@ label {
   /* background: linear-gradient(to right, #7d9aea, #0161ef); */
   background: transparent;
   border-radius: 15px;
-  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 3px 6px rgba(0, 0, 0, 0.1);
   color: #fff;
   background-size: 200% auto;
   animation: moveGradient 8s linear infinite;
   position: sticky;
   top: 70px;
+
 }
 
 .star-unordered {

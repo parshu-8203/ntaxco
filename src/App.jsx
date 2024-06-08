@@ -21,9 +21,9 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 300,
       delay: 100,
-      duration: 600,
+      duration: 800,
       easing: "ease-in-out",
     });
     setIsLoading(false);

@@ -73,7 +73,10 @@ const Services = ({ serviceName }) => {
         <div className="row">
           <div className="col-md-8">{renderServiceComponent()}</div>
           <div className="col-md-4">
-            <div className="card  small-card custom-card w-90">
+            <div
+              data-aos="zoom-in"
+              className="card  small-card custom-card w-90"
+            >
               <div className="card-body h-">
                 <h5
                   style={{
