@@ -1,5 +1,7 @@
+import { ChevronsUp } from "lucide-react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer id="footer" class="footer-1">
@@ -109,6 +111,9 @@ const Footer = () => {
                   />
                 </div>
               </div>
+            </div>
+            <div className="scroll_up" onClick={() => window.scrollTo(0, 0)}>
+              <ChevronsUp className="up_btn" color="black" size={30} />
             </div>
           </div>
         </div>

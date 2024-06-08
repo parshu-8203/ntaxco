@@ -1,3 +1,10 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
 .text-highlight {
   color: #f9af14;
   text-decoration: underline;
@@ -104,6 +111,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1.5rem;
 }
 
 /* Cards styling */

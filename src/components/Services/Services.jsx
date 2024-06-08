@@ -16,6 +16,7 @@ import Trust12A from "./Trust12A";
 import Trust80G from "./Trust80G";
 import Payroll from "./Payroll";
 import Digital from "./Digital";
+import Dropdown from "../../widgets/Dropdown";
 const Services = ({ serviceName }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -74,7 +75,7 @@ const Services = ({ serviceName }) => {
           <div className="col-md-8">{renderServiceComponent()}</div>
           <div className="col-md-4">
             <div
-              data-aos="zoom-in"
+              // data-aos="zoom-in"
               className="card  small-card custom-card w-90"
             >
               <div className="card-body h-">
@@ -84,7 +85,7 @@ const Services = ({ serviceName }) => {
                     fontSize: "small",
                     textAlign: "center",
                   }}
-                  className="card-title text-primary mb-0"
+                  className="card-title text-primary mb-0 fs-6"
                 >
                   REGISTER TO SERVICE
                 </h5>
@@ -95,7 +96,7 @@ const Services = ({ serviceName }) => {
                     </label>
                     <input
                       type="text"
-                      className="form-control"
+                      className="form-control fs-6"
                       id="name"
                       required
                     />
@@ -106,7 +107,7 @@ const Services = ({ serviceName }) => {
                     </label>
                     <input
                       type="email"
-                      className="form-control"
+                      className="form-control fs-6"
                       id="email"
                       required
                     />
@@ -116,7 +117,7 @@ const Services = ({ serviceName }) => {
                       Message
                     </label>
                     <textarea
-                      className="form-control"
+                      className="form-control fs-6"
                       id="message"
                       rows="3"
                       required
@@ -126,13 +127,7 @@ const Services = ({ serviceName }) => {
                     <label htmlFor="service" className="form-label text-black">
                       Service
                     </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="service"
-                      value={serviceName}
-                      readOnly
-                    />
+                    <Dropdown key={serviceName} serviceName={serviceName} />
                   </div>
                   <button type="submit" className="button mt-4">
                     SUBMIT

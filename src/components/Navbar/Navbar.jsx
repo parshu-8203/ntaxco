@@ -37,7 +37,7 @@ const CostumNavbar = () => {
                   class="offcanvas-title text-primary"
                   id="offcanvasNavbarLabel"
                 >
-                  Nizam Tax Consultancy
+                  Nizam&apos;s Tax Consultancy
                 </h5>
               </Link>
               <button

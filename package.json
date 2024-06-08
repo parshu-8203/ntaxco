@@ -1,5 +1,6 @@
 {
   "name": "ntaxco",
+  "homepage": "",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,7 +18,9 @@
     "aos": "^2.3.4",
     "framer-motion": "^11.2.9",
     "lazyload": "^2.0.0-rc.2",
+    "lucide-react": "^0.381.0",
     "react": "^18.2.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
     "react-typed": "^2.0.12"
