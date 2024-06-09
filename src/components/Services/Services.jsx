@@ -78,7 +78,7 @@ const Services = ({ serviceName }) => {
               // data-aos="zoom-in"
               className="card  small-card custom-card w-90"
             >
-              <div className="card-body h-">
+              <div className="card-body ">
                 <h5
                   style={{
                     fontWeight: "600",

@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
