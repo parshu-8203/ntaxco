@@ -10,9 +10,9 @@ const MSME = () => {
         under this department and get the Certificate of Registration. This
         certificate is alos called as UDYOG AADHAR or UDYAM REGISTRATION.
       </p>
-      <h5 class="text-primary">MSME Threshold Limits</h5>
-      <div class="table-responsive">
-        <table class="table table-gray table-primary table-bordered table-striped">
+      <h5 className="text-primary">MSME Threshold Limits</h5>
+      <div className="table-responsive">
+        <table className="table table-gray table-primary table-bordered table-striped">
           <thead>
             <tr>
               <th>Classification</th>
@@ -46,8 +46,8 @@ const MSME = () => {
         etc.,
       </p>
       <h3>What are the schemes indtroduced by MSME</h3>
-      <div class="table-responsive">
-        <table class="table table-primary table-bordered">
+      <div className="table-responsive">
+        <table className="table table-primary table-bordered">
           <thead>
             <tr>
               <th>SL No</th>
@@ -196,9 +196,9 @@ const MSME = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mt-5">Documents Required for MSME Registration</h3>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h3 className="mt-5">Documents Required for MSME Registration</h3>
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         For Proprietorship Business
@@ -211,8 +211,8 @@ const MSME = () => {
         <li>Proprietor Email id</li>
         <li>Complete Office Address</li>
       </ol>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         For Other Businesses
@@ -231,17 +231,21 @@ const MSME = () => {
         You can register a business under MSME in the following three steps.
       </p>
       <ol>
-        <li class="font-weight-bold text-primary">Preparation of Documents</li>
-        <p class="p-2">We will prepare all documents for online submission.</p>
-        <li class="font-weight-bold text-primary">Online Submission</li>
-        <p class="p-2">
+        <li className="font-weight-bold text-primary">
+          Preparation of Documents
+        </li>
+        <p className="p-2">
+          We will prepare all documents for online submission.
+        </p>
+        <li className="font-weight-bold text-primary">Online Submission</li>
+        <p className="p-2">
           We will upload the documents online with the Government web portal and
           pay the requisite fee if any.
         </p>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Certificate of Registration
         </li>
-        <p class="p-2">
+        <p className="p-2">
           After scrutiny, the Officer will approve the form and issues you the
           Certificate of Registration through online.
         </p>

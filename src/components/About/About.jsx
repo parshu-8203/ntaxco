@@ -11,28 +11,28 @@ const About = () => {
   const isInView = useInView(counterRef);
 
   return (
-    <section class="section_all" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section_title_all text-center">
-              <h3 class=" h1">
+    <section className="section_all" id="about">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="section_title_all text-center">
+              <h3 className=" h1">
                 Welcome To{" "}
-                <span class="text-custom font-weight-bold">Ntaxco</span>
+                <span className="text-custom font-weight-bold">Ntaxco</span>
               </h3>
-              <p class="section_subtitle mx-auto">
+              <p className="section_subtitle mx-auto">
                 We Provide Solutions for Asset Management.
               </p>
             </div>
           </div>
         </div>
-        <div class="row  set-center vertical_content_manage mt-5">
-          <div class="col-lg-6">
-            <div class="about_header_main mt-3">
-              <h4 class="about_heading text-capitalize font-weight-bold mt-4">
+        <div className="row  set-center vertical_content_manage mt-5">
+          <div className="col-lg-6">
+            <div className="about_header_main mt-3">
+              <h4 className="about_heading text-capitalize font-weight-bold mt-4">
                 Read the story behind our success..
               </h4>
-              <p class="mt-3">
+              <p className="mt-3">
                 We, Nizams Tax Consultancy, situated at Tapovanam, Anantapur,
                 Andhra pradesh, are multidisciplinary team of accounting, tax
                 and audit professionals with deep, sector-specific experience in
@@ -40,44 +40,44 @@ const About = () => {
                 meet the complex and evolving accounting, tax and compliance
                 challenges that you face on multiple fronts.{" "}
               </p>
-              <p class="mt-3">
+              <p className="mt-3">
                 Mission of our firm is to provide clients with the 'one stop
                 Solution' for all their businesses, financial and regulatory
                 requirement.
               </p>
             </div>
           </div>
-          <div class="img-id col-lg-6">
-            <div class="img_about">
+          <div className="img-id col-lg-6">
+            <div className="img_about">
               <img
                 src={success}
                 width={"350px"}
                 alt=""
-                class="img-fluid mx-auto d-block"
+                className="img-fluid mx-auto d-block"
               />
             </div>
           </div>
         </div>
-        <div class="row  set-center vertical_content_manage mt-5">
-          <div class="img-id col-lg-6">
-            <div class="img_about mt-3">
+        <div className="row  set-center vertical_content_manage mt-5">
+          <div className="img-id col-lg-6">
+            <div className="img_about mt-3">
               <img
                 src={experience}
                 width={"400px"}
                 alt=""
-                class="img-fluid mx-auto d-block"
+                className="img-fluid mx-auto d-block"
               />
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="about_header_main mt-3">
-              <h4 class="about_heading text-capitalize font-weight-bold mt-4">
+          <div className="col-lg-6">
+            <div className="about_header_main mt-3">
+              <h4 className="about_heading text-capitalize font-weight-bold mt-4">
                 Why Us?
               </h4>
               <p className="h1 font-weight-bolder text-primary">
                 We have more than ten years of experience
               </p>
-              <p class="mt-3">
+              <p className="mt-3">
                 A wonderful serenity has taken possession of my entire soul,
                 like these sweet mornings of spring which I enjoy with my whole
                 heart. I am alone, and feel the charm of existence in this spot,
@@ -91,16 +91,16 @@ const About = () => {
         </div>
       </div>
       <div className="row mt-3 mb-3 bg-light temp">
-        <div class="col-lg-4">
-          <div class="about_content_box_all mt-3">
-            <div class="about_detail text-center">
-              <div class="about_icon">
-                <i class="fa-solid fa-lightbulb"></i>
+        <div className="col-lg-4">
+          <div className="about_content_box_all mt-3">
+            <div className="about_detail text-center">
+              <div className="about_icon">
+                <i className="fa-solid fa-lightbulb"></i>
               </div>
-              <h5 class="text-dark text-capitalize mt-3 font-weight-bold">
+              <h5 className="text-dark text-capitalize mt-3 font-weight-bold">
                 Innovative Tax Solutions
               </h5>
-              <p class="edu_desc mt-3 mb-0 text-muted">
+              <p className="edu_desc mt-3 mb-0 text-muted">
                 At Ntaxco, we offer innovative tax solutions tailored to your
                 needs. Our experienced team stays updated with tax laws to
                 provide strategic planning and savings.
@@ -108,16 +108,16 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="about_content_box_all mt-3">
-            <div class="about_detail text-center">
-              <div class="about_icon">
-                <i class="fa-solid fa-user-tie"></i>
+        <div className="col-lg-4">
+          <div className="about_content_box_all mt-3">
+            <div className="about_detail text-center">
+              <div className="about_icon">
+                <i className="fa-solid fa-user-tie"></i>
               </div>
-              <h5 class="text-dark text-capitalize mt-3 font-weight-bold">
+              <h5 className="text-dark text-capitalize mt-3 font-weight-bold">
                 Expert Tax Advisors
               </h5>
-              <p class="edu_desc mt-3 mb-0 text-muted">
+              <p className="edu_desc mt-3 mb-0 text-muted">
                 Rely on our team of seasoned tax advisors for expert guidance.
                 We provide comprehensive support and advice, ensuring compliance
                 and maximizing savings for individuals and businesses.
@@ -125,16 +125,16 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="about_content_box_all mt-3">
-            <div class="about_detail text-center">
-              <div class="about_icon">
-                <i class="fa-solid fa-chart-line"></i>
+        <div className="col-lg-4">
+          <div className="about_content_box_all mt-3">
+            <div className="about_detail text-center">
+              <div className="about_icon">
+                <i className="fa-solid fa-chart-line"></i>
               </div>
-              <h5 class="text-dark text-capitalize mt-3 font-weight-bold">
+              <h5 className="text-dark text-capitalize mt-3 font-weight-bold">
                 Strategic Tax Planning
               </h5>
-              <p class="edu_desc mt-3 mb-0 text-muted">
+              <p className="edu_desc mt-3 mb-0 text-muted">
                 Our strategic tax planning services are designed to optimize
                 your financial position and minimize tax liabilities. We analyze
                 your situation thoroughly and develop customized strategies to

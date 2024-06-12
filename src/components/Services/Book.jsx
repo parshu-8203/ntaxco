@@ -19,7 +19,7 @@ const Book = () => {
         whereas accounting is responsible for interpreting, classifying,
         analyzing, reporting, and summarizing the financial data.
       </p>
-      <h3 class="mb-2">Differences between Bookkeeping & Accounting</h3>
+      <h3 className="mb-2">Differences between Bookkeeping & Accounting</h3>
       <p>
         Bookkeeping and accounting may appear to be the same profession to an
         untrained eye. This is because both accounting and bookkeeping deal with
@@ -28,8 +28,8 @@ const Book = () => {
         both these processes are inherently different and have their own sets of
         advantages.
       </p>
-      <div class="table-responsive">
-        <table class="table table-gray table-bordered ">
+      <div className="table-responsive">
+        <table className="table table-gray table-bordered ">
           <thead>
             <tr>
               <th>Particulars</th>
@@ -124,7 +124,7 @@ const Book = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mb-2">Who has to maintain Books of Accounts</h3>
+      <h3 className="mb-2">Who has to maintain Books of Accounts</h3>
       <p>
         <b>As per Income Tax Act, 1961 </b>: Sec 44AA(2) of the Income Tax Act,
         1961 requires persons carrying on business to maintain books of accounts

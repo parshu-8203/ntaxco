@@ -21,6 +21,7 @@ import entrivity from "../../assets/entrivity.png";
 import "aos/dist/aos.css";
 
 import "./Home.css";
+import ParallaxHeader from "./ParallaxHeader";
 const Home = () => {
   const clients = [
     {
@@ -32,7 +33,8 @@ const Home = () => {
   ];
   return (
     <>
-      <div className="container">
+      <ParallaxHeader />
+      {/* <div className="container">
         <div className="main-header">
           <div
             data-aos="fade-right"
@@ -53,15 +55,8 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          {/* <div data-aos="fade-left" className="img-id col-md-6">
-            <img
-              src={image}
-              className="person img-fluid mt-3"
-              alt="Right Image"
-            />
-          </div> */}
         </div>
-      </div>
+      </div> */}
       <div className="container mt-5 company-services">
         <div className="row">
           <div className="col-md-3 col-sm-6 mb-4">
@@ -228,122 +223,126 @@ const Home = () => {
         className="testimonials shadow-lg border border-top-5"
         // style={{ backgroundColor: "white" }}
       >
-        <div class="container-xl">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+        <div className="container-xl">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h2 className="text-primary">Client's Testimonials</h2>
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <p class="testimonial">
+              <div
+                id="myCarousel"
+                className="carousel slide"
+                data-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <p className="testimonial">
                       If Professionalism has a face it looks like you... Every
                       one likes to own valuable things... I'm pretty lucky to
                       have you as Tax Consultant.. It's time for the society to
                       witness a wonderful professional personality... Keep going
                       Buddy... All the best 👍
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Dr.Sudharshan Naik</b>,DOCTOR IN ANANTAPUR.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Nizam's Tax Consultency is giving very good service about
                       IT Returns filling & financial guidance.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Thota Nagaraju</b>, DIRECTOR ANANATPUR PUBLICATIONS
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Very friendly natured person. he talked to the company
                       people where i have worked to release my bills and help
                       many times in GST issues. will refer 100%.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Nagesh</b>, NAGESH CONSTRUCTIONS.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Nizammudin, you are like our tax consultancy 'Guru'.
                       Always available to assist us in all the ways. It's our
                       fortune that you are here for us. Thanks to your valuable
                       service. Your work is great appreciable and rewardable.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Pushpa Naik and Raju Naik</b>,DEAR IN BAMBOO STICKS AND
                       WOOD.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       They are providing me with ITR filing and GST services.
                       The consultant is very responsive and apt in providing the
                       solutions. Its been 2 years since they started providing
                       me the services and I really appreciate their efforts in
                       timely ITR & GST filings.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Shubam Agarwal</b>, LALITHA JEWELLERY.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       One of the best tax consultancy service, Nizam is quick
                       and prompt in his service and response, has got a good
                       knowledge in his field. I'll Definitely refer him for all
                       your tax related services.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Praveen Kumar</b>, DIRECTOR ENSCULP CONSTRUCTIONS.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Always Available, Fast response, No delay in work. Sir
                       helped me in tax payments as well he paid his own funds
                       and later collected from me Thank you sir for your support
                       to my business
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>B Venkatesulu</b>, ARYAN ENTERPRISES.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       He is Available at any time. Solve problems with ease and
                       having good Communication skills so that a Client can
                       understand easily.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Manoharan</b>, VASUKI CONSTRUCTIONS
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       I love this guy for making client comfortable at any
                       situation.....
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Director Janardhan P</b>, SREENIVASA MOTORS.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       I have lost GST user ID and password. I lost hope for my
                       GST credentials Nizam sir helped from beginning to ending
                       for getting back GST credentials Visited department, had a
                       call with department people many times Thank you so much.
                       I really appreciate the commitment towards works.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Ahsan Ali</b>,, Ali Engineering
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Been working with Nizam since 2017. Happy till date with
                       the micro and macro services he and his team providing.
                       Meticulous, Accurate, Intime, Guidance are the words we
@@ -351,70 +350,70 @@ const Home = () => {
                       peace of mind about their taxation and other services..
                       Hoping for a longer association.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Director Lakshman Andra</b>, VASUDHAARA ENTERPRISES
                       LLP.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Nizam always make sure that he is available anytime. Good
                       part is, he follow-up clients well in advance so that we
                       don’t rush at the end dates. Friendly, professional,
                       flexible and the best service all together makes him
                       special in the industry.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Director Ragadeep.</b>, ENTRIVITY MEDIA.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Subject knowledge is very good .He solved my company GST
                       issues with departments and saved money to me. Happy to
                       associate with you sir.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>RAJA KUBERA NAIK</b>
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Being a client to Nizam since two years, never get any
                       delay in tax payments and GST returns...... 👏👏 Keep it
                       up Nizam.... 🤝
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Giri Teja</b>, HARIKA ENTERPRISES
                     </p>
                   </div>
 
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       I have used Nizams Tax consultancy for some time now for
                       all my taxation, accountancy and general advice. They are
                       excellent, friendly, very professional, and very prompt ,
                       I would recommend 100% .
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>PARAMASIVAN RAJKUMAR</b>
                     </p>
                   </div>
 
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       I consulted him about tax filling of futures and options
                       trading. Many people doesn't even know this, even though
                       they are professionally qualified CA... He done it very
                       clearly without having me any headaches.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>SHARTH CHANDRA</b>
                     </p>
                   </div>
 
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Nizam provide very specialized service for all tax needs
                       for incorporation, accounting and taxes. I have referred
                       several colleagues and they are all very happy with the
@@ -423,60 +422,60 @@ const Home = () => {
                       is a very talented guy and he will file it returns for a
                       very Best price
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>SHAIK IMRAN</b>
                     </p>
                   </div>
 
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       Good hospitality and generous and kind in behavior .. will
                       guide u in every aspect of queries .. can be trusted
                       heartfully.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>Dr. Sai Kiran Chandu</b>, DOCTOR GANDHI HOSPITAL
                       HYDERABAD.
                     </p>
                   </div>
 
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       1st thing is response, in that he's great He's in
                       professional on his job I am so thank full to this person.
                       he's done my taxes and some up and gains also so don't
                       hesitate to ask just go on that and file ur
                       takes.......thank u Nizam for giving ur tax consultation.
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>sharuk shaik</b>, KASHMIR COOL DRINKS.
                     </p>
                   </div>
-                  <div class="carousel-item">
-                    <p class="testimonial">
+                  <div className="carousel-item">
+                    <p className="testimonial">
                       He is having excellent knowledge on his profession and he
                       focus on client satisfaction. I strongly recommend to
                       everyone who’s looking for tax related consultation👍
                     </p>
-                    <p class="overview">
+                    <p className="overview">
                       <b>RATEHSH RAMU</b>
                     </p>
                   </div>
                 </div>
 
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#myCarousel"
                   data-slide="prev"
                 >
-                  <i class="fa fa-angle-left"></i>
+                  <i className="fa fa-angle-left"></i>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#myCarousel"
                   data-slide="next"
                 >
-                  <i class="fa fa-angle-right"></i>
+                  <i className="fa fa-angle-right"></i>
                 </a>
               </div>
             </div>

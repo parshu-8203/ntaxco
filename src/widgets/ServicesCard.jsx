@@ -1,8 +1,14 @@
-import { useState, useEffect } from "react";
-import "./Card3.css";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { motion, useAnimation, useInView } from "framer-motion";
+import "./Card3.css";
+
 const Card = ({ imageUrl, title, description, path }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const ref = useRef(null);
+
+  const isInView = useInView(ref, { once: true });
+  const mainControls = useAnimation();
 
   // useEffect(() => {
   //   const timeoutId = setTimeout(() => {
@@ -11,6 +17,12 @@ const Card = ({ imageUrl, title, description, path }) => {
 
   //   return () => clearTimeout(timeoutId);
   // }, [isHovered]);
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  });
 
   return (
     // <div className="card-container">
@@ -56,7 +68,17 @@ const Card = ({ imageUrl, title, description, path }) => {
     //   </div>
     // </div>
 
-    <div className={`card-container card ${isHovered ? "hover" : ""}`}>
+    <motion.div
+      variants={{
+        hidden: { opacity: 0, x: -75 },
+        visible: { opacity: 1, x: 0 },
+      }}
+      initial="hidden"
+      animate={mainControls}
+      transition={{ duration: 0.6, delay: 0.5 }}
+      ref={ref}
+      className={`card-container card ${isHovered ? "hover" : ""}`}
+    >
       <a
         className={`card1`}
         href="#!"
@@ -81,7 +103,7 @@ const Card = ({ imageUrl, title, description, path }) => {
           </div>
         </div>
       </a>
-    </div>
+    </motion.div>
   );
 };
 

@@ -19,7 +19,7 @@ const GSTRegistration = () => {
         services sold domestically, with consumers paying the tax at the point
         of sale, while businesses remit it to the government.
       </p>
-      <ul class="star-unordered">
+      <ul className="star-unordered">
         <li>
           The goods and services tax (GST) is a tax on goods and services sold
           domestically for consumption.
@@ -32,7 +32,7 @@ const GSTRegistration = () => {
 
         <li>The GST is usually taxed as a single rate across a nation.</li>
       </ul>
-      <h3 class="mt-5">Who are required to register under GST</h3>
+      <h3 className="mt-5">Who are required to register under GST</h3>
       <p>
         Every supplier shall be liable to be registered under this Act in the
         State or Union territory, other than special category States, from where
@@ -45,7 +45,9 @@ const GSTRegistration = () => {
         liable to be registered if his aggregate turnover in a financial year
         exceeds ten lakh rupees*
       </p>
-      <h3 class="mt-5">Mandatory GST Registration for the following persons</h3>
+      <h3 className="mt-5">
+        Mandatory GST Registration for the following persons
+      </h3>
       <ol>
         <li>
           Businesses with turnover above the threshold limit of Rs. 40 Lakhs
@@ -78,22 +80,22 @@ const GSTRegistration = () => {
           other than a registered person
         </li>
         <li>
-          such other person or class of persons as may be notified by the
+          such other person or className of persons as may be notified by the
           Government on the recommendations of the Council.
         </li>
       </ol>
-      <p class="imp">
+      <p className="imp">
         * This limit is increased to Rs. 40 Lakhs w.e.f 1st April 2019 for all
         states except the State of Telangana. Special category states ie. Jammu
         and Kashmir, Ladakh and Assam also opted Rs.40 lakhs limit.
       </p>
 
-      <p class="imp">
+      <p className="imp">
         ** This limit is increased to Rs. 20 Lakhs w.e.f 1st April 2019 for
         Special Category States.
       </p>
 
-      <p class="imp">
+      <p className="imp">
         *** A person making inter-state supply of services, supply of handicraft
         goods and a jobworker except a jewellery, goldsmith, silversmith whose
         aggregate turnover below the threshold (ie. Rs40/Rs.20 lakhs) limit are
@@ -106,7 +108,7 @@ const GSTRegistration = () => {
         voluntarily even if his/her aggregate turnover is below the threshold
         limits.
       </p>
-      <p class="imp">
+      <p className="imp">
         {" "}
         <span style={{ fontWeight: "bold" }}>Aggregate Turnover</span>:
         “aggregate turnover” means the aggregate value of all taxable supplies
@@ -116,7 +118,7 @@ const GSTRegistration = () => {
         Permanent Account Number, to be computed on all India basis but excludes
         central tax, State tax, Union territory tax, integrated tax and cess.
       </p>
-      <h3 class="mt-5">Who are not required to register under GST</h3>
+      <h3 className="mt-5">Who are not required to register under GST</h3>
       <ol>
         {" "}
         <li>
@@ -129,14 +131,14 @@ const GSTRegistration = () => {
           cultivation of land.
         </li>
       </ol>
-      <h3 class="mt-5">Documents Required for GST Registration</h3>
-      <h5 class="mt-4">
-        <span class="me-3">
+      <h3 className="mt-5">Documents Required for GST Registration</h3>
+      <h5 className="mt-4">
+        <span className="me-3">
           <img src={document} />
         </span>
         For Proprietorship
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>PAN of Proprietor</li>
         <li>Aadhar of Proprietor</li>
         <li>Passport size photo of proprietor</li>
@@ -146,13 +148,13 @@ const GSTRegistration = () => {
         <li>Office NOC cum Affidavit if it is owned</li>
         <li>Office latest power bill</li>
       </ol>
-      <h5 class="mt-4">
-        <span class="me-3">
+      <h5 className="mt-4">
+        <span className="me-3">
           <img src={document} />
         </span>
         For Partnership/LLP
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>PAN of Partners/Designated Partners</li>
         <li>Aadhar of Partners/Designated Partners</li>
         <li>Passport size photo of Partners/Designated Partners</li>
@@ -167,13 +169,13 @@ const GSTRegistration = () => {
         <li>Authorisation Letter</li>
         <li>Digital Signature Certificate of Authorised Designated Partner</li>
       </ol>
-      <h5 class="mt-4">
-        <span class="me-3">
+      <h5 className="mt-4">
+        <span className="me-3">
           <img src={document} />
         </span>
         For Company
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>PAN of Directors</li>
         <li>Aadhar of Directors</li>
         <li>Passport size photo of Directors</li>

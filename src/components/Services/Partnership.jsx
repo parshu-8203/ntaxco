@@ -56,8 +56,8 @@ const Partnership = () => {
         Mortar Businesses.
       </p>
       <h5>Minimum Requirements for Firm Registration</h5>
-      <div class="mt-3 table-responsive">
-        <table class="table table-gray table-bordered">
+      <div className="mt-3 table-responsive">
+        <table className="table table-gray table-bordered">
           <tbody>
             <tr>
               <th>Partners</th>
@@ -70,8 +70,8 @@ const Partnership = () => {
           </tbody>
         </table>
       </div>
-      <ul class="right-unordered">
-        <li class="mb-3">
+      <ul className="right-unordered">
+        <li className="mb-3">
           Two partners are rquired. They should be majors. The partner must be
           an Individual. One of the partners must be local resident.
         </li>
@@ -80,15 +80,15 @@ const Partnership = () => {
           partnership firm current bank account towards capital contribution.
         </li>
       </ul>
-      <h3 class="mt-5">Documents Required for Firm Registration</h3>
+      <h3 className="mt-5">Documents Required for Firm Registration</h3>
 
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         Partner's Documents
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>Partner's PAN</li>
         <li>Partner's ID Proofs</li>
         <li>Aadhaar Card or Voter ID or Passport or Driver's License</li>
@@ -105,13 +105,13 @@ const Partnership = () => {
           mandatory
         </li>
       </ol>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         Firm Documents
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>
           Registered Office Address Proof: Latest Power Bill or Property Tax
           Receipt.
@@ -129,51 +129,51 @@ const Partnership = () => {
         the 3 step Firm Registration process.
       </p>
       <ol>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Documents Preparation
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             {" "}
             (Through eMudhra - One Hour Job)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           We will prepare Partnership Deed, Form-1, Rental Agreement or NOC from
           the Landlord and other supporting documents.
         </p>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Online Submission to Register Office{" "}
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             {" "}
             (Through District Registrar Web Portal - One Hour Job)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           We will upload the documents online with the District Registrar web
           portal and pay the requisite fee.
         </p>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Certificate of Registration{" "}
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             (Through online - 3 to 5 Days)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           After scrutiny, the District Registrar will approve the form and
           issues you the Certificate of Registration through online.
         </p>
       </ol>
       <h3>What All You Get</h3>
-      <div class="table-responsive">
-        <table class="table table-primary table-bordered">
+      <div className="table-responsive">
+        <table className="table table-primary table-bordered">
           <tbody>
             <tr>
               <td>Certificate of Registration</td>
@@ -190,8 +190,8 @@ const Partnership = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mb-3">Bank Account, Other Licenses & Compliance</h3>
-      <h5 class="text-primary">Firm Bank Account Opening</h5>
+      <h3 className="mb-3">Bank Account, Other Licenses & Compliance</h3>
+      <h5 className="text-primary">Firm Bank Account Opening</h5>
       <p>
         As of now, the Ministry of Corporate Affairs (MCA) is giving automatic
         Bank Account only for Companies in any one of the following banks (ie.
@@ -201,12 +201,12 @@ const Partnership = () => {
         separately once the Firm is registered. We will help getting your Firm
         Bank Account opened.
       </p>
-      <h5 class="text-primary">Firm PAN & TAN</h5>
+      <h5 className="text-primary">Firm PAN & TAN</h5>
       <p>
         We will file PAN & TAN application once the Firm Registration is done.
         You will get PAN & TAN with in 10 days.
       </p>
-      <h5 class="text-primary">GST Registration</h5>
+      <h5 className="text-primary">GST Registration</h5>
       <p>
         Every supplier shall be liable to be registered under this Act in the
         State or Union territory, other than special category States, from where
@@ -219,12 +219,12 @@ const Partnership = () => {
         liable to be registered if his aggregate turnover in a financial year
         exceeds ten lakh rupees**
       </p>
-      <p class="imp">
+      <p className="imp">
         * This limit is increased to Rs. 40 Lakhs w.e.f 1st April 2019 for all
         states except the State of Telangana. Special category states ie. Jammu
         and Kashmir, Ladakh and Assam also opted Rs.40 lakhs limit.
       </p>
-      <p class="imp">
+      <p className="imp">
         ** This limit is increased to Rs. 20 Lakhs w.e.f 1st April 2019 for
         Special Category States.
       </p>
@@ -235,7 +235,7 @@ const Partnership = () => {
         to 5 days, you will get your GSTIN and some times it may be delayed due
         to various reasons.
       </p>
-      <h5 class="text-primary">Other Licenses</h5>
+      <h5 className="text-primary">Other Licenses</h5>
       <p>
         Subsequent upon your Firm Registration, you need to apply for certain
         other licenses such as (ie. MSME Registration, Import Export Code (IEC),
@@ -243,7 +243,7 @@ const Partnership = () => {
         FSSAI License, Local Trade License etc. We help you get these licenses
         at an affordable cost.
       </p>
-      <h5 class="text-primary">Compliance</h5>
+      <h5 className="text-primary">Compliance</h5>
       <p>
         Once you register your Partnership Firm, you need to file certatain
         periodic documents with the GST department, Income Tax Department and
@@ -254,15 +254,15 @@ const Partnership = () => {
         Accounts etc. Our team of experts will assist you in getting all these
         compliances done at an affordable cost.
       </p>
-      <h5 class="text-primary">Fund Raising & Tax Planning</h5>
+      <h5 className="text-primary">Fund Raising & Tax Planning</h5>
       <p>
         Our team of experienced Chartered Accountants & Company Secretaries will
         help you get funds to run your business by preparing project reports,
         business plans & term sheets etc. We also help you pay less tax to the
         government through a proper tax planning.
       </p>
-      <h3 class="mb-3">Benefits of a Partnership Firm Registration</h3>
-      <h5 class="text-primary">Low Cost of Formation</h5>
+      <h3 className="mb-3">Benefits of a Partnership Firm Registration</h3>
+      <h5 className="text-primary">Low Cost of Formation</h5>
       <p>
         The Partnership Firm can be formed with low cost and simple
         documentation where as a Private Limited Company or Limited Liability
@@ -274,7 +274,7 @@ const Partnership = () => {
         annual basis. It has to file documents with the Registar whenever there
         is a change in the constitution of the Firm.
       </p>
-      <h5 class="text-primary">Tax Audit & Income Split</h5>
+      <h5 className="text-primary">Tax Audit & Income Split</h5>
       <p>
         Income Tax Audit is not required for a Partnership Firm if the turnover
         of the Firm does not exceed Rs. 1 Crore in a financial year and Rs. 2
@@ -288,7 +288,7 @@ const Partnership = () => {
         Act. The following table illustrates the eligible rementaion payable to
         partners of the firm
       </p>
-      <h5 class="text-primary">Flexibility</h5>
+      <h5 className="text-primary">Flexibility</h5>
       <p>
         The Partnership Deed can be drafted as per the wishes of the partners of
         the firm. One partner may have more pwoers than others. One partner may
@@ -297,7 +297,7 @@ const Partnership = () => {
         partner will assist first partner. One partner may be authorised to
         operate the bank account while the other may act as sleeping partner.
       </p>
-      <h5 class="text-primary">Ownership, Control & Privacy</h5>
+      <h5 className="text-primary">Ownership, Control & Privacy</h5>
       <p>
         Unlike a Company, a Partnership Firm has a conrol over decision making
         of business transaction and it is vested in the hands of partners of the
@@ -305,7 +305,7 @@ const Partnership = () => {
         by third parties. In a Company, the financials can be easily accessable
         on MCA web portal.
       </p>
-      <h5 class="text-primary">Sharing of Loss</h5>
+      <h5 className="text-primary">Sharing of Loss</h5>
       <p>
         The Partnership business is also relatively preferable for small
         businesses and the profits or losses are shared among the partners of

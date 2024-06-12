@@ -25,23 +25,23 @@ const GSTReturns = () => {
         supplies in FORM GSTR-1 on a quarterly basis and on monthly basis by
         taxpayers with annual aggregate turnover greater than Rs. 5 Crores.
       </p>
-      <h3 class="mb-3">How the GST Returns are filed</h3>
-      <ul class="right-unordered">
-        <li class="mb-2">GSTN portal (www.gst.gov.in )</li>
-        <li class="mb-2">Offline utilities provided by GSTN</li>
-        <li class="mb-2">
+      <h3 className="mb-3">How the GST Returns are filed</h3>
+      <ul className="right-unordered">
+        <li className="mb-2">GSTN portal (www.gst.gov.in )</li>
+        <li className="mb-2">Offline utilities provided by GSTN</li>
+        <li className="mb-2">
           GST Suvidha Providers (GSPs). If a tax payer is already using the
           services of an ERP providers such as Tally, SAP, Oracle etc, there is
           a high likelihood that these ERP providers would provide inbuilt
           solutions in the existing ERP systems.
         </li>
       </ul>
-      <h5 class="mb-3 text-primary">
+      <h5 className="mb-3 text-primary">
         Following table lists the various types of returns under GST Law
       </h5>
-      <div class="">
-        <div class="table-responsive">
-          <table class="table table-secondary table-bordered table-striped">
+      <div className="">
+        <div className="table-responsive">
+          <table className="table table-secondary table-bordered table-striped">
             <thead>
               <tr>
                 <th>Type of Return</th>
@@ -153,18 +153,18 @@ const GSTReturns = () => {
           </table>
         </div>
       </div>
-      <p class="imp">
+      <p className="imp">
         The due dates may be extended by the GST Counsil due to multiple
         reasons.
       </p>
-      <p class="imp">
+      <p className="imp">
         Registered persons having aggregate turnover of up to 1.5 Crore rupees
         in the preceding financial year or the current financial year may
         furnish GSTR-1 on a quarterly basis (ie. QRMP System). Other Registered
         persons having aggregate turnover of more than 1.5 Crore rupees shall
         furnish these returns on a monthly basis.
       </p>
-      <h5 class="mb-3" style={{ color: "blue" }}>
+      <h5 className="mb-3" style={{ color: "blue" }}>
         Revision of Returns
       </h5>
       <p>
@@ -176,7 +176,7 @@ const GSTReturns = () => {
         such details pertain, or furnishing of the relevant annual return,
         whichever is earlier.
       </p>
-      <h5 class="mb-3" style={{ color: "blue" }}>
+      <h5 className="mb-3" style={{ color: "blue" }}>
         Interest on Late GST Payment
       </h5>
       <p>
@@ -188,7 +188,7 @@ const GSTReturns = () => {
         such details pertain, or furnishing of the relevant annual return,
         whichever is earlier.
       </p>
-      <h5 class="mb-3" style={{ color: "blue" }}>
+      <h5 className="mb-3" style={{ color: "blue" }}>
         Penalty for non-filing of GST Returns
       </h5>
       <p>
@@ -197,7 +197,7 @@ const GSTReturns = () => {
         and Rs.100/- for SGST per day (up to a maximum of Rs. 5,000/-) from the
         due date to the date when the returns are actually filed.
       </p>
-      <p class="imp">
+      <p className="imp">
         From the month of October 2017 onwards, the GST Council has recommended
         that the amount of late fee payable by a taxpayer whose tax liability
         for that month is ‘NIL’ is Rs. 20/- per day (Rs. 10/- per day each under

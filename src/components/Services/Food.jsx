@@ -52,8 +52,8 @@ const Food = () => {
         them.
       </p>
 
-      <div class="table-responsive">
-        <table class="table table-gray table-bordered ">
+      <div className="table-responsive">
+        <table className="table table-gray table-bordered ">
           <thead>
             <th>Kind of Business</th>
             <th>Criteria</th>
@@ -417,13 +417,13 @@ const Food = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mt-4">Who are required to take State License</h3>
+      <h3 className="mt-4">Who are required to take State License</h3>
       <p>
         The following food business operators are eligible to take State
         License.
       </p>
-      <div class="table-responsive">
-        <table class="table table-primary table-bordered ">
+      <div className="table-responsive">
+        <table className="table table-primary table-bordered ">
           <thead>
             <th>Kind of Business</th>
             <th>Criteria</th>
@@ -870,13 +870,13 @@ const Food = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mt-4">Who are required to take Central License</h3>
+      <h3 className="mt-4">Who are required to take Central License</h3>
       <p>
         The following food business operators are eligible to take Central
         License.
       </p>
-      <div class="table-responsive">
-        <table class="table table-primary table-bordered ">
+      <div className="table-responsive">
+        <table className="table table-primary table-bordered ">
           <thead>
             <th>Kind of Business</th>
             <th>Criteria</th>
@@ -1373,14 +1373,16 @@ const Food = () => {
           </tbody>
         </table>
       </div>
-      <h3 class="mt-3">Documents Required for FSSAI Registration/License</h3>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h3 className="mt-3">
+        Documents Required for FSSAI Registration/License
+      </h3>
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         Registration
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>Proprietor/Partners/Directors Photos</li>
         <li>ID Proofs</li>
         <li>Aadhaar Card or Voter ID or Passport or Driver's License</li>
@@ -1391,13 +1393,13 @@ const Food = () => {
         <li>Mobile Numbers</li>
         <li>Self Declaratoin in Sepcimen Format</li>
       </ol>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         State/Central License-Non Manufacturing/Pricessing Units
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>
           List of Directors/Partners/Proprietor/Executive Members of
           Society/Trust with full address and contact details with nomination of
@@ -1453,13 +1455,13 @@ const Food = () => {
         </li>
         <li>List of Vehicle Registration Numbers for Transporters.</li>
       </ol>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         State/Central License-Manufacturing/Pricessing Units
       </h5>
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>
           List of Directors/Partners/Proprietor/Executive Members of
           Society/Trust with full address and contact details with nomination of
@@ -1543,50 +1545,50 @@ const Food = () => {
           safety of food.
         </li>
       </ol>
-      <h3 class="mt-3">Food Business License/Registration Process</h3>
+      <h3 className="mt-3">Food Business License/Registration Process</h3>
       <p>
         You can get your Food Business Registration/License in the following
         three steps.
       </p>
       <ol>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Preparation of Documents
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             {" "}
             (Through FSSAI web portal - One Hour Job)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           We will prepare all the documents required for registration/license.
         </p>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Online Submission with FSSAI Web Portal
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             {" "}
             (Through FSSAI web portal - One Hour Job)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           We will upload the documents and pay the requisite fee at FSSAI web
           portal.
         </p>
-        <li class="font-weight-bold text-primary">
+        <li className="font-weight-bold text-primary">
           Certificate of Registration
           <span
-            class="font-weight-normal"
+            className="font-weight-normal"
             style={{ fontSize: "13px", color: "black" }}
           >
             {" "}
             (Through eMail - 10 to 15 Days)
           </span>
         </li>
-        <p class="p-2">
+        <p className="p-2">
           After scrutiny, the FSSAI Officer will approve the form and issues you
           the Certificate of Registration through email.
         </p>

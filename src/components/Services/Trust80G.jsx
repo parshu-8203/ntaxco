@@ -24,7 +24,7 @@ const Trust80G = () => {
         available under Section 80G is over and above the deduction of Rs.
         1,50,000 allowed under Section 80C.
       </p>
-      <h3 class="mb-2">Types of Section 80G Licenses</h3>
+      <h3 className="mb-2">Types of Section 80G Licenses</h3>
       <p>
         There are two types of Licenses under Section 80G of the Income Tax Act,
         1961:
@@ -33,7 +33,7 @@ const Trust80G = () => {
         <li>Provisional Registration</li>
         <li>Regular Registration</li>
       </ol>
-      <h5 class="text-primary">
+      <h5 className="text-primary">
         Provisional Registration ~ Regular Registration
       </h5>
       <p>
@@ -58,34 +58,34 @@ const Trust80G = () => {
         department in Form 10AB. The regular registration is valid for a period
         of 5 years from the date of its issuance.
       </p>
-      <h3 class="mb-2">Conditions for Section 80G Licenses</h3>
+      <h3 className="mb-2">Conditions for Section 80G Licenses</h3>
       <p>
         The following conditions to be fulfilled to get license under Section
         80G
       </p>
-      <ul class="right-unordered">
-        <li class="mb-2">
+      <ul className="right-unordered">
+        <li className="mb-2">
           The NGO should not have any income which are not exempted, such as
           business income. If, the NGO has business income then it should
           maintain separate books of accounts and should not divert donations
           received for the purpose of such business.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           The bylaws or objectives of the NGOs should not contain any provision
           for spending the income or assets of the NGO for purposes other than
           charitable.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           The NGO is not working for the benefit of particular religious’
           community or caste.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           The NGO maintains regular accounts of its receipts & expenditures.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           The NGO should be a registered Society/Trust/Section-8 Company.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Donations made are eligible to be claimed as a deduction under Section
           80G in all cases except in cases where the donation has been made in
           kind (eg: food, clothes, medicine etc). In order to claim this
@@ -96,14 +96,14 @@ const Trust80G = () => {
         </li>
       </ul>
       <h3 clsas="mb-2">Documents Required for Section 80G License</h3>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         Trustees/Members/Directors Documents
       </h5>
 
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>Trustees/Members/Directors PAN</li>
         <li>Trustees/Members/Directors ID Proofs</li>
         <li>Aadhaar Card or Voter ID or Passport or Driver's License</li>
@@ -121,14 +121,14 @@ const Trust80G = () => {
           Incase of Foreign direcrtors, International Passport is mandatory
         </li>
       </ol>
-      <h5 class="mt-4 text-primary">
-        <span class="me-3">
+      <h5 className="mt-4 text-primary">
+        <span className="me-3">
           <img src={document} />
         </span>
         NGO Documents
       </h5>
 
-      <ol class="ms-3">
+      <ol className="ms-3">
         <li>
           Registered Trust Deed/Bylaws of a Society/ Memorandum and Articles of
           Association of a Company
@@ -156,7 +156,7 @@ const Trust80G = () => {
           whichever is less
         </li>
       </ol>
-      <h3 class="mt-3">
+      <h3 className="mt-3">
         How to get Section 80G License - Section 80G License Process for NGOs
       </h3>
       <p>You can get your NGOs Section 80G license in the following process:</p>
@@ -184,19 +184,19 @@ const Trust80G = () => {
           return filing
         </li>
       </ol>
-      <h3 class="mb-2">Extent of Benefit under Section 80G</h3>
+      <h3 className="mb-2">Extent of Benefit under Section 80G</h3>
       <p>
         In some cases, there is no maximum limit for the deduction which can be
         claimed for donations made under section 80G. However, in some cases
         deduction on donations under Section 80G is limited to 10% of the
         Adjusted Gross Total Income of the taxpayer.
       </p>
-      <p class="imp">
+      <p className="imp">
         The adjusted gross total income of a taxpayer for the purpose of Section
         80G is computed as follows:
       </p>
-      <div class="table-responsive">
-        <table class="table table-gray table-bordered">
+      <div className="table-responsive">
+        <table className="table table-gray table-bordered">
           <thead>
             <tr>
               <th>Particulars</th>
@@ -230,7 +230,7 @@ const Trust80G = () => {
           </tbody>
         </table>
       </div>
-      <p class="imp">
+      <p className="imp">
         * Deduction under Section 80G is limited to a maximum of 10% of the
         Gross Total Income.
       </p>
@@ -246,7 +246,7 @@ const Trust80G = () => {
         donations to institutions which have a maximum limit for claiming
         deduction have been mentioned below.
       </p>
-      <h5 class="text-primary">
+      <h5 className="text-primary">
         Deductions which are allowed without any maximum limit:
       </h5>
       <p>
@@ -255,65 +255,74 @@ const Trust80G = () => {
         amount donated whereas in some cases only 50% of the amount donated can
         be claimed as a deduction.
       </p>
-      <h6 class="text-success">Donations eligible for Full Deduction</h6>
-      <ul class="right-unordered">
-        <li class="mb-2">National Defence Fund set by the Central Govt</li>
-        <li class="mb-2">Prime Minister’s National Relief Fund</li>
-        <li class="mb-2"> Prime Minister’s Armenia Earthquake Relief Fund</li>
-        <li class="mb-2"> National Foundation for Communal Harmony</li>
-        <li class="mb-2">
+      <h6 className="text-success">Donations eligible for Full Deduction</h6>
+      <ul className="right-unordered">
+        <li className="mb-2">National Defence Fund set by the Central Govt</li>
+        <li className="mb-2">Prime Minister’s National Relief Fund</li>
+        <li className="mb-2">
+          {" "}
+          Prime Minister’s Armenia Earthquake Relief Fund
+        </li>
+        <li className="mb-2"> National Foundation for Communal Harmony</li>
+        <li className="mb-2">
           University/ Education Institution of National eminence approved by the
           prescribed authority
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Maharashtra Chief Minister’s Earthquake Relief Fund
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Any Fund set-up by the State Govt of Gujarat, exclusively for
           providing relief to the victims of earthquake of Gujarat
         </li>
-        <li class="mb-2">Zila Saksharta Samiti constituted in any district</li>
-        <li class="mb-2">
+        <li className="mb-2">
+          Zila Saksharta Samiti constituted in any district
+        </li>
+        <li className="mb-2">
           National Blood Transfusion Council or any State Blood Transfusion
           Council
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Any fund set up by the state Govt to provide Medical Relief to the
           poor
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Army Central Welfare Fund or Indian Naval Benevolent Fund or the Air
           Force Central Welfare Fund
         </li>
-        <li class="mb-2">National Illness Assistance Fund</li>
-        <li class="mb-2">
+        <li className="mb-2">National Illness Assistance Fund</li>
+        <li className="mb-2">
           Andhra Pradesh Chief Minister’s Cyclone Relief Fund
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Chief Minister Relief Fund or the Lieutenant Governor’s Relief Fund in
           respect of any State or Territory
         </li>
-        <li class="mb-2">National Sports Fund set up by the Central Govt</li>
-        <li class="mb-2">National Cultural Fund set up by the Central Govt</li>
-        <li class="mb-2">
+        <li className="mb-2">
+          National Sports Fund set up by the Central Govt
+        </li>
+        <li className="mb-2">
+          National Cultural Fund set up by the Central Govt
+        </li>
+        <li className="mb-2">
           Fund for Technology Development and Application, set up by the Central
           Govt
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           National Trust for Welfare of Persons with Autism, Cerebral Palsy,
           Mental
         </li>
-        <li class="mb-2">Retardation and Multiple Disabilities</li>
+        <li className="mb-2">Retardation and Multiple Disabilities</li>
       </ul>
-      <h6 class="text-success">Donations eligible for 50% Deduction</h6>
-      <ul class="right-unordered">
-        <li class="mb-2">Jawaharlal Nehru Memorial Fund</li>
-        <li class="mb-2">Prime Minister’s Drought Relief Fund</li>
-        <li class="mb-2">National Children’s Fund</li>
-        <li class="mb-2">Indira Gandhi Memorial Fund</li>
-        <li class="mb-2">Rajiv Gandhi Foundation</li>
+      <h6 className="text-success">Donations eligible for 50% Deduction</h6>
+      <ul className="right-unordered">
+        <li className="mb-2">Jawaharlal Nehru Memorial Fund</li>
+        <li className="mb-2">Prime Minister’s Drought Relief Fund</li>
+        <li className="mb-2">National Children’s Fund</li>
+        <li className="mb-2">Indira Gandhi Memorial Fund</li>
+        <li className="mb-2">Rajiv Gandhi Foundation</li>
       </ul>
-      <h6 class="text-success">
+      <h6 className="text-success">
         Donations with max limit of 10% of Adjusted Gross Total Income
       </h6>
       <p>
@@ -323,20 +332,20 @@ const Trust80G = () => {
         a maximum deduction of only 10% i.e. Rs. 90,000 if donation is made to
         any of the following.
       </p>
-      <h6 class="text-primary">Donations eligible for full Deduction</h6>
-      <ul class="right-unordered">
-        <li class="mb-2">
+      <h6 className="text-primary">Donations eligible for full Deduction</h6>
+      <ul className="right-unordered">
+        <li className="mb-2">
           Donation to Government or any approved local authority, institution or
           association to be utilised for promoting family planning.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Any sums paid by a company to Indian Olympic Association or to any
           other association notified by the Central Govt for the purpose of
           development of infrastructure for sports and games or for the
           sponsorship of sports and games.
         </li>
       </ul>
-      <h6 class="text-primary">Donations eligible for 50% Deduction</h6>
+      <h6 className="text-primary">Donations eligible for 50% Deduction</h6>
       <p>
         The following donations are allowed with 50% deduction subject to
         qualifying amount. Considering the same example as given above, if
@@ -344,23 +353,23 @@ const Trust80G = () => {
         only donation up to Rs. 90,000. Moreover, the deduction allowed would
         only be 50% of 90,000 i.e. Rs. 45,000.
       </p>
-      <ul class="right-unordered">
-        <li class="mb-2">
+      <ul className="right-unordered">
+        <li className="mb-2">
           Donation to Government or any approved local authority, institution or
           association to be utilized for any charitable purpose other than
           promoting family planning.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Donation to any authority constituted in India by or under any law for
           satisfying the need for housing accommodation or for the purpose of
           planning, development or improvement of cities, towns and villages or
           for both.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           To any corporation established by the Central or any State Govt for
           promoting the interests of the members of a minority community.
         </li>
-        <li class="mb-2">
+        <li className="mb-2">
           Any notified temple, mosque, gurdwara, church or other place notified
           by the Central Govt to be of historic, archaeological or artistic
           importance for renovation or repair of such place.
